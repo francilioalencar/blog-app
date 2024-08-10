@@ -1,0 +1,36 @@
+.card-small{
+
+    border-top: 4px solid #ccc;
+    margin: auto;
+    margin-bottom: 12px;
+    width: 100%;
+    padding-right: 4px;
+    padding-left: 4px;
+
+    .card{
+
+        
+        
+        width: calc(100% - 8px);
+        border-radius: 4px;
+        text-align: justify;
+        font-size: 13pt;
+
+    }
+
+
+
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    margin-top: 4px;
+    font-size: 14pt;
+}
+
+.border-gree{
+    border: 2px solid rgb(0, 0, 255, 0.3);
+}

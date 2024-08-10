@@ -1,0 +1,27 @@
+
+
+<app-topo-app/>
+<div class="container">
+        
+        <app-card-text
+                [img]="pessoa.foto"
+                [title]="pessoa.name"
+                [subTitle]="pessoa.interesse"
+                [text]="pessoa.descricao"
+        >
+        </app-card-text>
+
+        <div class="title">Produtos relevanetes</div>
+        <div class="col-4">
+                <app-card-small 
+                        [ieBorder]="false" 
+                        *ngFor="let item of pessoa.competencias"
+                >
+                        <h4>{{item.competencia}}</h4>
+                        <p>{{item.descricao}}</p>
+                        <p><a href={{item.url}} target="_blank" *ngIf="item.url.length > 0">Publicação Linkedin</a></p>
+                </app-card-small>
+        </div>
+</div>
+<app-footer-app />
+

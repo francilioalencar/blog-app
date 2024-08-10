@@ -1,0 +1,10 @@
+import { Type } from "@angular/core";
+
+
+export type CompetenciaPublicacao ={
+    competencia : string,
+    descricao: string,
+    url: string
+
+}
+

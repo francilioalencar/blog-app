@@ -1,0 +1,53 @@
+.card-text-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    //box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+;
+}
+
+
+
+.card-text-body{
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-bottom: 8px;
+    gap: 4px;
+    text-align: justify;
+    font-size: 13pt;
+    
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+
+    @media screen and (max-width: 600px) {
+        grid-template-columns: 1fr; 
+
+        img{
+            display: none;
+        }
+    }
+
+}
+
+.card-text-title{
+    background: linear-gradient(to bottom, #ccc, #fff);
+    font-size: 18pt;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    border-radius: 8px;
+}
+
+.card-text-subTitle{
+    padding: 0 12px;
+    font-size: 14pt;
+    margin-top: 0;
+
+}
+
+img{
+    border-radius: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
