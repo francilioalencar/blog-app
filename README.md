@@ -25,7 +25,7 @@ Esta aplicação foi desenvolvida utilizando **Angular** como parte de um desafi
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/francilioalencar/blog-app.git
 
 2. Acesse o diretório do projeto:
    cd blog-app
